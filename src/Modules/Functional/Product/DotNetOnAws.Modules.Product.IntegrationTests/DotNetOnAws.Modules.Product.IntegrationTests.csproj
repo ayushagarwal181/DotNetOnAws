@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\SolutionInfo.proj" />
+
+	<PropertyGroup>
+		<Description>DotNetOnAws.Modules.Product.IntegrationTests</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="..\..\..\..\stylecop.json" />
+	</ItemGroup>
+
+</Project>

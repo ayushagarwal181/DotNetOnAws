@@ -1,0 +1,27 @@
+<Project>
+	<PropertyGroup>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionSuffix>beta</VersionSuffix>
+		<FileVersion>1.0.0.0</FileVersion>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<PackageVersion>1.0.0-beta</PackageVersion>
+		<Authors>Ayush Agarwal</Authors>
+		<Title>.NET On AWS</Title>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageProjectUrl>https://github.com/users/ayushagarwal181/projects/9</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ayushagarwal181/DotNetOnAws</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<TargetFramework>net8.0</TargetFramework>
+		<AnalysisMode>Recommended</AnalysisMode>
+		<AnalysisModeSecurity>All</AnalysisModeSecurity>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>
