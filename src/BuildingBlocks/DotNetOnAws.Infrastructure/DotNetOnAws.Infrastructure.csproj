@@ -10,4 +10,17 @@
 		<AdditionalFiles Include="..\..\stylecop.json" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.SecretsManager" Version="3.7.302.33" />
+		<PackageReference Include="System.Text.Json" Version="8.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DotNetOnAws.Domain\DotNetOnAws.Domain.csproj" />
+	</ItemGroup>
+
 </Project>

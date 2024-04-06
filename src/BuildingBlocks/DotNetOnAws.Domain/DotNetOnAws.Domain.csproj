@@ -10,4 +10,8 @@
 		<AdditionalFiles Include="..\..\stylecop.json" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\DotNetOnAws.CrossCuttingConcerns\DotNetOnAws.CrossCuttingConcerns.csproj" />
+	</ItemGroup>
+
 </Project>

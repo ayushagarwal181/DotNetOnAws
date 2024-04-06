@@ -6,6 +6,7 @@
 
 namespace DotNetOnAws.Migrator
 {
+    using DotNetOnAws.Infrastructure.Configuration;
     using Microsoft.AspNetCore.Builder;
 
     /// <summary>
@@ -20,6 +21,7 @@ namespace DotNetOnAws.Migrator
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Configuration.AddAppConfiguration();
             var app = builder.Build();
 
             app.MapGet("/", () => "Hello World!");
