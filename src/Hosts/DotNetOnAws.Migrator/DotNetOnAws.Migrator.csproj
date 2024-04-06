@@ -10,4 +10,8 @@
 		<AdditionalFiles Include="..\..\stylecop.json" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\..\BuildingBlocks\DotNetOnAws.Infrastructure\DotNetOnAws.Infrastructure.csproj" />
+	</ItemGroup>
+
 </Project>
